@@ -16,6 +16,7 @@ body {
 
 .header-container {
  display: flex;
+ border-bottom: 1px solid #e7e9fc
 }
   
 .header-link {
