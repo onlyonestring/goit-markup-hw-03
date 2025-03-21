@@ -31,9 +31,10 @@ body {
   list-style-type: none;
   display: flex;
   gap: 40px;
+  align-items: center; 
 }
 
-.header-container {
+.container {
   line-height: 1.15;
   font-optical-sizing: auto;
   font-style: normal;
