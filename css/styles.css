@@ -111,16 +111,19 @@ h1,h2,h3,h4,h5,h6,p {
 
 .header-logo {
   color: #2e2f42;
+  margin-right: 76px
 }
 
 .address {
   font-style: normal;
+  align-items: center;
+  display: flex;
+  gap: 40px;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
-  display: flex;
 }
 
 .address-contact {
@@ -171,6 +174,8 @@ h1,h2,h3,h4,h5,h6,p {
   color: #fff;
   background-color: #2e2f42;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 500px;
+  padding: 0 15px;
 }
 
 .hero-button {
@@ -182,6 +187,7 @@ h1,h2,h3,h4,h5,h6,p {
   line-height: 1.5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .hero-button:hover,
@@ -289,6 +295,9 @@ h1,h2,h3,h4,h5,h6,p {
   text-transform: uppercase;
   color: #f4f4fd;
   background-color: #2e2f42;
+  padding-bottom: 100px;
+  display: inline-block; 
+  margin-bottom: 16px; 
 }
 
 .footer-text {
