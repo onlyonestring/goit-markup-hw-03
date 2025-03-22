@@ -41,11 +41,11 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 .logo-one {
-  margin: 0 auto
+  margin-right: 76px;
 }
 
 .logo-two {
-  margin: 0 auto;
+  margin-right: 76px; 
 }
 
 .header-nav {
@@ -59,6 +59,7 @@ h1,h2,h3,h4,h5,h6,p {
   display: flex;
   gap: 40px;
   justify-content: flex-end;
+  align-items: center; 
 }
 
 
@@ -80,7 +81,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .header-list {
-  
+  align-items: center; 
+  display: flex;
+  gap: 40px;
 }
 
 .header-list-item {
@@ -89,7 +92,6 @@ h1,h2,h3,h4,h5,h6,p {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 40px;
 }
 
 .list-item-link {
@@ -113,6 +115,12 @@ h1,h2,h3,h4,h5,h6,p {
 
 .address {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  display: flex;
 }
 
 .address-contact {
