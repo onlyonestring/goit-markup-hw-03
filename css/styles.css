@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6,p {
   box-sizing: border-box;
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
+  margin-right: 76px;
 }
 
 .container {
@@ -37,6 +38,7 @@ h1,h2,h3,h4,h5,h6,p {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  justify-content: space-between;
 }
 
 
@@ -153,6 +155,7 @@ h1,h2,h3,h4,h5,h6,p {
   font-style: normal;
   line-height: 1.5;
   background-color: #ffffff;
+  display: flex;
 }
 
 .contact-info:hover,
@@ -174,8 +177,11 @@ h1,h2,h3,h4,h5,h6,p {
   color: #fff;
   background-color: #2e2f42;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 500px;
-  padding: 0 15px;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.second-hero {
 }
 
 .hero-button {
@@ -188,6 +194,9 @@ h1,h2,h3,h4,h5,h6,p {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 .hero-button:hover,
@@ -295,9 +304,6 @@ h1,h2,h3,h4,h5,h6,p {
   text-transform: uppercase;
   color: #f4f4fd;
   background-color: #2e2f42;
-  padding-bottom: 100px;
-  display: inline-block; 
-  margin-bottom: 16px; 
 }
 
 .footer-text {
