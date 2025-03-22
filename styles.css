@@ -9,16 +9,6 @@ body {
   background-color: #fff;
   color: #434455;
 }
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-h1,h2,h3,h4,h5,h6,p {
-  margin: 0;
-}
 /*--------------HEADER--------------*/
 .header {
   line-height: 1.15;
@@ -30,15 +20,6 @@ h1,h2,h3,h4,h5,h6,p {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
 }
-
-.container {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 
 .logo-one {
   margin: 0 auto
@@ -58,7 +39,7 @@ h1,h2,h3,h4,h5,h6,p {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
+  align-items: center; 
 }
 
 
@@ -111,6 +92,9 @@ h1,h2,h3,h4,h5,h6,p {
   color: #2e2f42;
 }
 
+/* .address-list {
+   font-style: normal;
+} */
 .address {
   font-style: normal;
 }

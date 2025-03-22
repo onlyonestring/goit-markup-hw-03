@@ -19,7 +19,7 @@
 
   <body class="body">
     <header class="header">
-      <div class="container">
+      <div class="container flex">
         <nav class="header-nav">
           <a href="./index.html" target="_blank" class="header-link">
             Web<span class="header-logo">Studio</span></a
@@ -52,13 +52,17 @@
             </li>
           </ul>
         </address>
-      </header>
-      <main class="main">
-        <section class="hero">
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button">Order Service</button>
-        </section>
-        <section class="about">
+        </div>
+      </section>
+      <section class="about">
+       <div class="container flex">
           <h2 class="benefits">Benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
@@ -90,132 +94,157 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section class="team">
+       </div>
+      </section>
+      <section class="team">
+        <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
-              class="team-photo"
-              src="./images/img.jpg"
-              width="264"
-              height="260"
-              alt="photo of employee"
+                class="team-photo"
+                src="./images/img.jpg"
+                width="264"
+                height="260"
+                alt="photo of employee"
               />
-              <h3 class="team-member-name">Mark Guerrero</h3>
-              <p class="team-member-role">Product Designer</p>
+              <div class="team-member-card">
+                <h3 class="team-member-name">Mark Guerrero</h3>
+                <p class="team-member-role">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-              class="team-photo"
-              src="./images/Group_2.jpg"
-              width="264"
-              height="260"
-              alt="photo of employee"
+                class="team-photo"
+                src="./images/Group_2.jpg"
+                width="264"
+                height="260"
+                alt="photo of employee"
               />
-              <h3 class="team-member-name">Tom Ford</h3>
-              <p class="team-member-role">Frontend Developer</p>
+              <div class="team-member-card">
+                <h3 class="team-member-name">Tom Ford</h3>
+                <p class="team-member-role">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-              class="team-photo"
-              src="./images/Group_2-2.jpg"
-              width="264"
-              height="260"
-              alt="photo of employee"
+                class="team-photo"
+                src="./images/Group_2-2.jpg"
+                width="264"
+                height="260"
+                alt="photo of employee"
               />
-              <h3 class="team-member-name">Camila Garcia</h3>
-              <p class="team-member-role">Marketing</p>
+              <div class="team-member-card">
+                <h3 class="team-member-name">Camila Garcia</h3>
+                <p class="team-member-role">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-              class="team-photo"
-              src="./images/Group_2-3.jpg"
-              width="264"
-              height="260"
-              alt="photo of employee"
+                class="team-photo"
+                src="./images/Group_2-3.jpg"
+                width="264"
+                height="260"
+                alt="photo of employee"
               />
-              <h3 class="team-member-name">Daniel Wilson</h3>
-              <p class="team-member-role">UI Designer</p>
+              <div class="team-member-card">
+                <h3 class="team-member-name">Daniel Wilson</h3>
+                <p class="team-member-role">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
-        <section class="portfolio">
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <img
-              class="portfolio-item-image"
-              src="./images/bankingapp.jpg"
-              width="360"
-              alt="photo of project"
+                class="portfolio-item-image"
+                src="./images/bankingapp.jpg"
+                width="360"
+                alt="photo of project"
               />
-              <h3 class="portfolio-item-name">Banking App</h3>
-              <p class="portfolio-paragraph">App</p>
+              <div class="portfolio-item-card">
+                <h3 class="portfolio-item-name">Banking App</h3>
+                <p class="portfolio-paragraph">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-              class="portfolio-item-image"
-              src="./images/cashlesspayment.jpg"
-              width="360"
-              alt="photo of project"
+                class="portfolio-item-image"
+                src="./images/cashlesspayment.jpg"
+                width="360"
+                alt="photo of project"
               />
-              <h3 class="portfolio-item-name">Cashless Payment</h3>
-              <p class="portfolio-paragraph">Marketing</p>
+              <div class="portfolio-item-card">
+                <h3 class="portfolio-item-name">Cashless Payment</h3>
+                <p class="portfolio-paragraph">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-              class="portfolio-item-image"
-              src="./images/meditationapp.jpg"
-              width="360"
-              alt="photo of project"
+                class="portfolio-item-image"
+                src="./images/meditationapp.jpg"
+                width="360"
+                alt="photo of project"
               />
-              <h3 class="portfolio-item-name">Meditation App</h3>
-              <p class="portfolio-paragraph">App</p>
+             <div class="portfolio-item-card">
+                <h3 class="portfolio-item-name">Meditation App</h3>
+                <p class="portfolio-paragraph">App</p>
+             </div>
             </li>
             <li class="portfolio-item">
               <img
-              class="portfolio-item-image"
-              src="./images/taxiservice.jpg"
-              width="360"
-              alt="photo of project"
+                class="portfolio-item-image"
+                src="./images/taxiservice.jpg"
+                width="360"
+                alt="photo of project"
               />
-              <h3 class="portfolio-item-name">Taxi Service</h3>
-              <p class="portfolio-paragraph">Marketing</p>
+              <div class="portfolio-item-card">
+                <h3 class="portfolio-item-name">Taxi Service</h3>
+                <p class="portfolio-paragraph">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-              class="portfolio-item-image"
-              src="./images/screenillustrations.jpg"
-              width="360"
-              alt="photo of project"
+                class="portfolio-item-image"
+                src="./images/screenillustrations.jpg"
+                width="360"
+                alt="photo of project"
               />
-              <h3 class="portfolio-item-name">Screen Illustrations</h3>
-              <p class="portfolio-paragraph">Design</p>
+              <div class="portfolio-item-card">
+                <h3 class="portfolio-item-name">Screen Illustrations</h3>
+                <p class="portfolio-paragraph">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-              class="portfolio-item-image"
-              src="./images/onlinecourses.jpg"
-              width="360"
-              alt="photo of project"
+                class="portfolio-item-image"
+                src="./images/onlinecourses.jpg"
+                width="360"
+                alt="photo of project"
               />
-              <h3 class="portfolio-item-name">Online Courses</h3>
-              <p class="portfolio-paragraph">Marketing</p>
+              <div class="portfolio-item-card">
+                <h3 class="portfolio-item-name">Online Courses</h3>
+                <p class="portfolio-paragraph">Marketing</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer class="footer">
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
         <a href="./index.html" class="footer-title"
-        >Web<span class="footer-logo">Studio</span></a
+          >Web<span class="footer-logo">Studio</span></a
         >
         <p class="footer-text">
           Increase the flow of customers and sales for your business with digital
           marketing & growth solutions.
         </p>
       </div>
-      </footer>
-    </body>
-    </html>
-    
+    </footer>
+  </body>
+</html>
